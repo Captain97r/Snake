@@ -13,5 +13,60 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Исходные файлы\NeuronWeb">
+      <UniqueIdentifier>{eb2e7e0e-dc80-486f-ad76-2f00896f111a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\NeuronWeb">
+      <UniqueIdentifier>{5e64b860-ee61-488d-ade8-da95f08329ba}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Food.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Snake.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="NeuronWeb\HiddenLayer.cpp">
+      <Filter>Исходные файлы\NeuronWeb</Filter>
+    </ClCompile>
+    <ClCompile Include="NeuronWeb\InputLayer.cpp">
+      <Filter>Исходные файлы\NeuronWeb</Filter>
+    </ClCompile>
+    <ClCompile Include="NeuronWeb\Neuron.cpp">
+      <Filter>Исходные файлы\NeuronWeb</Filter>
+    </ClCompile>
+    <ClCompile Include="NeuronWeb\Web.cpp">
+      <Filter>Исходные файлы\NeuronWeb</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Food.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Snake.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="NeuronWeb\HiddenLayer.hpp">
+      <Filter>Файлы заголовков\NeuronWeb</Filter>
+    </ClInclude>
+    <ClInclude Include="NeuronWeb\InputLayer.hpp">
+      <Filter>Файлы заголовков\NeuronWeb</Filter>
+    </ClInclude>
+    <ClInclude Include="NeuronWeb\Neuron.hpp">
+      <Filter>Файлы заголовков\NeuronWeb</Filter>
+    </ClInclude>
+    <ClInclude Include="NeuronWeb\Web.hpp">
+      <Filter>Файлы заголовков\NeuronWeb</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
